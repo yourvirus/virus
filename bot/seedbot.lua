@@ -437,7 +437,7 @@ will return group ban list
 end
 
 function on_our_id (id)
-  our_id = 160461671
+  our_id = id
 end
 
 function on_user_update (user, what)
@@ -514,7 +514,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 160461671
 now = os.time()
 math.randomseed(now)
 started = false
